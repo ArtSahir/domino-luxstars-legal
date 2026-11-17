@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Data Deletion Request — Domino Lux Stars</title>
+<meta name="description" content="How to delete your Domino Lux Stars account and data by CONPLY: in the app, with the request form, or by e-mail — and exactly what is erased.">
+<link rel="icon" href="favicon.png">
+<link rel="stylesheet" href="styles.css">
+<style>
+  .form { display: grid; gap: 12px; max-width: 560px; }
+  .form label { display: grid; gap: 6px; font-weight: 700; color: var(--navy); font-size: 14.5px; }
+  .form input, .form textarea { font: inherit; padding: 11px 13px; border: 1px solid var(--line); border-radius: 10px; background: #fbfcff; color: var(--ink); }
+  .form input:focus, .form textarea:focus { outline: 2px solid var(--gold-2); border-color: var(--gold); }
+  .form button { font: inherit; font-weight: 800; padding: 13px 18px; border: 0; border-radius: 12px; cursor: pointer;
+    background: linear-gradient(180deg, #d9534f, #b42318); color: #fff; box-shadow: 0 4px 12px rgba(180,35,24,.25); }
+  .form button:disabled { opacity: .6; cursor: default; }
+  #said { min-height: 1.6em; font-weight: 700; }
+  #said.ok { color: #0f7a3e; } #said.bad { color: #b42318; }
+</style>
+</head>
+<body>
+
+<header class="hero">
+  <div class="wrap">
+    <div class="brand">
+      <img class="logo" src="logo.png" alt="">
+      <div>Domino Lux Stars<small>by CONPLY</small></div>
+    </div>
+    <h1>Data Deletion Request</h1>
+    <div class="meta">
+      <span><b>Effective date:</b> November 17, 2026</span>
+      <span><b>Developer:</b> CONPLY</span>
+      <span><b>Contact:</b> userconplay@gmail.com</span>
+    </div>
+  </div>
+</header>
+
+<nav class="docnav" aria-label="Documents">
+  <div class="wrap">
+    <a href="index.html">Overview</a>
+    <a href="privacy-policy.html">Privacy Policy</a>
+    <a href="terms-of-use.html">Terms of Use</a>
+    <a class="active" href="data-deletion.html">Data Deletion</a>
+    <a href="intellectual-property.html">Intellectual Property</a>
+  </div>
+</nav>
+
+<main>
+  <div class="card">
+    <p class="lead">You can delete your <strong>Domino Lux Stars</strong> account and the data linked to it at any time. There are three ways: instantly inside the app, with the request form on this page, or by e-mail. This page also lists exactly what is erased, what is kept for a short time, and how to delete only part of your data.</p>
+  </div>
+
+  <div class="card toc">
+    <h2>Contents</h2>
+    <ol>
+      <li><a href="#in-app">Delete your account in the app</a></li>
+      <li><a href="#request">Request deletion with the form or by e-mail</a></li>
+      <li><a href="#deleted">What is deleted</a></li>
+      <li><a href="#kept">What is kept, and for how long</a></li>
+      <li><a href="#partial">Deleting only some data</a></li>
+      <li><a href="#guest">Guest mode</a></li>
+      <li><a href="#faq">Common questions</a></li>
+    </ol>
+  </div>
+
+  <section id="in-app">
+    <h2>1. Delete your account in the app</h2>
+    <p>This is the fastest way. It works while you are signed in to the account you want to delete.</p>
+    <ol class="steps">
+      <li>Open Domino Lux Stars and go to <strong>Settings</strong> (the gear icon).</li>
+      <li>In the <strong>Account</strong> section, tap <strong>Delete Account</strong>.</li>
+      <li>Read the warning and confirm. A match you are playing has to end first.</li>
+      <li>Your sign-in record, your profile and all the data listed in <a href="#deleted">section 3</a> are erased immediately and permanently from our servers, and the app signs you out. You can keep playing as a guest or create a new account later.</li>
+    </ol>
+    <div class="note"><b>This cannot be undone.</b> Coins, gems, tickets, cosmetics, friends, rankings and all progress are lost permanently.</div>
+    <p>If your account is banned, the app shows the ban screen instead of the lobby. That screen has a <strong>Request account deletion</strong> link to this page: use the form or the e-mail below and we will delete the account the same way.</p>
+  </section>
+
+  <section id="request">
+    <h2>2. Request deletion with the form or by e-mail</h2>
+    <p>If you no longer have the app, cannot sign in, or prefer to ask us, use this form. Give the e-mail address of the Google account you signed in with, so we can verify it is really you, and your 8-digit player code (shown on your profile) if you know it.</p>
+    <form class="form" id="form">
+      <label>Account e-mail address
+        <input id="email" type="email" required maxlength="254" autocomplete="email" placeholder="you@example.com"></label>
+      <label>Player code (optional)
+        <input id="code" inputmode="numeric" maxlength="20" placeholder="12345678"></label>
+      <label>Anything you want to add (optional)
+        <textarea id="note" rows="3" maxlength="1000" placeholder="For example: delete only my friends list"></textarea></label>
+      <button id="send" type="submit">Request deletion of my account</button>
+      <div id="said" role="status"></div>
+    </form>
+    <p>Or write to <a href="mailto:userconplay@gmail.com?subject=Delete%20my%20Domino%20Lux%20Stars%20account">userconplay@gmail.com</a> with the subject “Delete my Domino Lux Stars account”, from the Google address you used to sign in (or with your player code). Tell us whether you want the whole account deleted, or only specific data (see <a href="#partial">section 5</a>).</p>
+    <p>We confirm receipt, carry out the deletion, and send you a confirmation e-mail — normally within a few days and always within 30 days.</p>
+  </section>
+
+  <section id="deleted">
+    <h2>3. What is deleted</h2>
+    <p>Deleting your account removes everything linked to it on our servers:</p>
+    <div class="tablewrap">
+      <table>
+        <tr><th>Category</th><th>Data erased</th></tr>
+        <tr><td><strong>Profile</strong></td><td>Username, e-mail address, player code, avatar and frame, country, level and experience, privacy choices.</td></tr>
+        <tr><td><strong>Economy and items</strong></td><td>Coins, gems and tickets; owned and equipped avatars, frames, tables, stone sets and backdrops; the gifts in your bag; your store purchases.</td></tr>
+        <tr><td><strong>Progress and competitions</strong></td><td>Statistics for every game, weekly and world ranking points and last rank, season pass progress, elite challenge progress, check-ins, missions, achievements, chests and claimed rewards, popularity.</td></tr>
+        <tr><td><strong>Social</strong></td><td>Friends list, sent and received friend requests, invitations, blocked players, online presence and last seen.</td></tr>
+        <tr><td><strong>Activity</strong></td><td>Your seats in match records, café records, reports submitted about you, and any chat mute (with its reason) on your account. Chat at the table and in the café is never written to our database.</td></tr>
+        <tr><td><strong>Support</strong></td><td>The support requests you sent while signed in.</td></tr>
+        <tr><td><strong>Device</strong></td><td>Push notification tokens.</td></tr>
+        <tr><td><strong>Sign-in</strong></td><td>The authentication record holding your Google e-mail is deleted at the same moment.</td></tr>
+      </table>
+    </div>
+    <p>Your name simply disappears from other players’ friends lists and from the rankings. The admin logs keep only that an action happened, not who it concerned.</p>
+  </section>
+
+  <section id="kept">
+    <h2>4. What is kept, and for how long</h2>
+    <div class="tablewrap">
+      <table>
+        <tr><th>Data</th><th>Why it is kept</th><th>For how long</th></tr>
+        <tr><td><strong>Abuse-prevention record</strong></td><td>A one-way hash of the sign-in e-mail, the date of the deletion and any ban the account carried, so that a ban cannot be evaded and the starting coins cannot be collected again by deleting and re-creating an account. It cannot be used to identify you otherwise.</td><td>30 days; a ban that is still running keeps its record until it ends</td></tr>
+        <tr><td><strong>Reports you submitted</strong></td><td>A report you sent about another player stays for review, without your account</td><td>Until the report is resolved</td></tr>
+        <tr><td><strong>Reported café messages</strong></td><td>A message that another player reported is copied into that report for review</td><td>Until the report is resolved; reports about you are deleted with your account</td></tr>
+        <tr><td><strong>Crash reports and usage analytics</strong></td><td>Held by Google Firebase, linked to your random account identifier, which no longer leads to any account once it is deleted</td><td>Per Firebase’s retention: crash data 90 days, analytics up to 14 months</td></tr>
+        <tr><td><strong>Advertising data</strong></td><td>Processed by Google AdMob and its mediation partner Unity Ads under their own policies using your device’s Advertising ID, not your account</td><td>See <a href="privacy-policy.html#ads">Advertising</a> in the Privacy Policy; you can reset the Advertising ID on your device</td></tr>
+        <tr><td><strong>Data we must keep by law</strong></td><td>Legal obligations or an ongoing dispute</td><td>For the period the law requires</td></tr>
+      </table>
+    </div>
+    <p>Nothing else linked to your account is retained.</p>
+  </section>
+
+  <section id="partial">
+    <h2>5. Deleting only some data</h2>
+    <p>You do not have to delete the whole account to remove specific data:</p>
+    <ul>
+      <li><strong>Friends and requests:</strong> remove a friend or cancel a request from the Friends page or the player’s card.</li>
+      <li><strong>Blocked players:</strong> unblock them from Settings → Blocked players, or from the player’s card.</li>
+      <li><strong>Presence, profile and watching:</strong> hide them in Privacy controls.</li>
+      <li><strong>Push notification token:</strong> turn notifications off in Settings, or sign out.</li>
+      <li><strong>Profile details:</strong> change your username, avatar, frame or country in your profile’s editor, and the language in Settings.</li>
+      <li><strong>Anything else:</strong> use the form or e-mail us as in <a href="#request">section 2</a> and say which data you want removed. We will do so unless we need it for the reasons in <a href="#kept">section 4</a>.</li>
+    </ul>
+  </section>
+
+  <section id="guest">
+    <h2>6. Guest mode</h2>
+    <p>If you play as a guest without signing in, none of your game data is on our servers — only a support request, if you send one (the name, e-mail address and message you typed). Use the form or e-mail us from that address to have it deleted; otherwise, once it is answered or closed, it is deleted automatically when it is 180 days old. Everything else (name, avatar, offline coins, settings, offline progress) is stored only on your phone. To delete it, clear the app’s storage in your device settings or uninstall the app. Ads, usage analytics and crash reports also work in guest mode; they are tied to your device, not to an account (see <a href="#kept">section 4</a>).</p>
+  </section>
+
+  <section id="faq">
+    <h2>7. Common questions</h2>
+    <h3>Can I get my account back after deleting it?</h3>
+    <p>No. Deletion is permanent. Signing in again with the same Google account creates a brand-new, empty profile.</p>
+    <h3>Will my coins, gems or tickets be refunded?</h3>
+    <p>No. They are virtual items with no monetary value (see the <a href="terms-of-use.html#virtual">Terms of Use</a>).</p>
+    <h3>I deleted the app. Is my account deleted too?</h3>
+    <p>No. Uninstalling only removes local data. Your online profile stays until you delete it in the app, with the form, or by e-mail.</p>
+    <h3>Someone else is using my account.</h3>
+    <p>Write to us immediately from your Google address; we can delete or lock the account for you.</p>
+    <h3>How do I remove my data from Google (ads, analytics)?</h3>
+    <p>That data is controlled by Google (and, for ads, by its partner Unity Ads) under their own policies. Read <a href="https://policies.google.com/privacy" rel="noopener">Google’s Privacy Policy</a> and <a href="https://support.google.com/googleplay/android-developer/answer/6048248" rel="noopener">learn how to reset or delete your Advertising ID</a>.</p>
+  </section>
+
+  <section id="contact">
+    <h2>Contact</h2>
+    <div class="contact">
+      <div class="item"><b>Developer</b>CONPLY</div>
+      <div class="item"><b>Deletion requests</b><a href="mailto:userconplay@gmail.com">userconplay@gmail.com</a></div>
+      <div class="item"><b>App</b>Domino Lux Stars (Google Play)</div>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <div class="wrap">
+    <span>© 2026 CONPLY · Domino Lux Stars</span>
+    <span><a href="index.html">All legal documents</a></span>
+  </div>
+</footer>
+
+<script>
+(function () {
+  // The request lands in the support section of the game's admin, as a message sent from the game's "Contact Us" does:
+  // the game's own database and its public key (the one the app carries), send_support (0029), limited per sender a day.
+  var BASE = "https://ebvhxpgshnsgdwowxfpg.supabase.co", KEY = "sb_publishable_LhU226DveBT643fVNdMrVA_gwQm_cGw";
+  var said = document.getElementById("said");
+  function say(text, good) { said.textContent = text; said.className = good ? "ok" : "bad"; }
+  document.getElementById("form").addEventListener("submit", function (e) {
+    e.preventDefault();
+    var button = document.getElementById("send");
+    var email = document.getElementById("email").value.trim();
+    var code = document.getElementById("code").value.trim();
+    var note = document.getElementById("note").value.trim();
+    var message = "ACCOUNT DELETION REQUEST (data deletion page)" + (code ? " - player code " + code : "") + (note ? "\n\n" + note : "");
+    button.disabled = true;
+    fetch(BASE + "/rest/v1/rpc/send_support", {
+      method: "POST",
+      headers: { "Content-Type": "application/json", "apikey": KEY, "Authorization": "Bearer " + KEY },
+      body: JSON.stringify({ p_email: email, p_name: "", p_code: code, p_topic: "account", p_message: message, p_lang: "en", p_version: "web" })
+    }).then(function (r) { return r.ok ? r.json() : Promise.reject(r.status); })
+      .then(function (word) {
+        if (word === "ok") say("Your request was received. We will verify it and delete the account within 30 days, and confirm by e-mail.", true);
+        else if (word === "email") say("Please enter a valid e-mail address.", false);
+        else if (word === "limit") say("Too many requests today. Please try again tomorrow, or write to us by e-mail.", false);
+        else say("The request could not be sent. Please try again, or write to us by e-mail.", false);
+      })
+      .catch(function () { say("The request could not be sent. Please try again, or write to us by e-mail.", false); })
+      .then(function () { button.disabled = false; });
+  });
+})();
+</script>
+</body>
+</html>
